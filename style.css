@@ -1,0 +1,23 @@
+:root {
+    --primary-color: #004370;
+    --secondary-color: #FEBE10;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    margin-right: 50px;
+}
